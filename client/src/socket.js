@@ -4,7 +4,7 @@ import io from "socket.io-client";
 const server =
   process.env.NODE_ENV === "development"
     ? "http://localhost:3000"
-    : "https://slate-ai-backend.onrender.com";
+    : "https://codraw-ai-backend.onrender.com";
 
 console.log(server);
 
